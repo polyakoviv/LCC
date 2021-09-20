@@ -1,0 +1,59 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+#[[main]]
+#  name = "Главная"
+#  url = "/"
+#  weight = 10
+
+[[main]]
+  name = "Новости"
+  url = "post"
+  weight = 20
+
+[[main]]
+  name = "Коллектив"
+  url = "people"
+  weight = 30
+
+[[main]]
+  identifier = "science"
+  name = "Наука"
+  url = "science"
+  weight = 70
+
+#[[main]]
+#  name = "Проекты"
+#  url = "projects"
+#  weight = 72
+#  parent = "science"
+#
+#[[main]]
+#  name = "События"
+#  url = "event"
+#  weight = 71
+#  parent = "science"
+#
+#[[main]]
+#  name = "Публикации"
+#  url = "publication"
+#  weight = 73
+#  parent = "science"
+
+[[main]]
+  name = "Образование"
+  url = "teaching"
+  weight = 80
+
+
+[[main]]
+  name = "История"
+  url = "history"
+  weight = 100
+
+[[main]]
+  name = "Контакты"
+  url = "contact"
+  weight = 999

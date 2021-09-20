@@ -1,0 +1,13 @@
+@article{alexeev2017an-efficient78400428,
+ abstract = {The Hartree–Fock method in the General Atomic and Molecular Structure System (GAMESS) quantum chemistry package represents one of the most irregular algorithms in computation today. Major steps in the calculation are the irregular computation of electron repulsion integrals and the building of the Fock matrix. These are the central components of the main self consistent field (SCF) loop, the key hot spot in electronic structure codes. By threading the Message Passing Interface (MPI) ranks in the official release of the GAMESS code, we not only speed up the main SCF loop (4x to 6x for large systems) but also achieve a significant (>2x) reduction in the overall memory footprint. These improvements are a direct consequence of memory access optimizations within the MPI ranks. We benchmark our implementation against the official release of the GAMESS code on the Intel® Xeon Phi™ supercomputer. Scaling numbers are reported on up to 7680 cores on Intel Xeon Phi coprocessors.},
+ address = {United States},
+ author = {Mironov, Vladimir and Moskovsky, Alexander and D’Mello, Michael and Alexeev, Yuri},
+ doi = {10.1177/1094342017732628},
+ issn = {1741-2846; 1094-3420},
+ journal = {International Journal of High Performance Computing Applications},
+ language = {english},
+ publisher = {United States},
+ title = {An efficient MPI/OpenMP parallelization of the Hartree–Fock–Roothaan method for the first generation of Intel Xeon Phi processor architecture},
+ year = {2017}
+}
+
