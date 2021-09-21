@@ -264,8 +264,9 @@ plugins_js  = []
 ## Content Management System
 ############################
 [cms]
-  branch = "labsite"
-  local_backend = false
+  branch = "main"
+  local_backend = true
+  netlify_cms = true
 
 ############################
 ## Icon Pack Extensions
