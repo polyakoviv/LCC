@@ -265,7 +265,7 @@ plugins_js  = []
 ############################
 [cms]
   branch = "main"
-  local_backend = false
+  local_backend = true
   netlify_cms = true
 
 ############################
